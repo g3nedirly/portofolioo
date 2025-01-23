@@ -1,0 +1,126 @@
+nav {
+    padding: 1.8rem;
+}
+
+nav h1 {
+    font-size: 3.2rem;
+}
+
+.show-hide img {
+    width: 76px;
+}
+
+.navbar a {
+    font-size: 3.8rem;
+    margin: 16px; 
+}
+
+.front {
+    font-size: 7.6rem;
+}
+
+.reli {
+    font-size: 6.6rem;
+}
+
+.dev {
+    font-size: 6.9rem;
+}
+
+.perkenalan p {
+    font-size: 2.4rem;
+    width: 65%;
+}
+
+.more-info {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.more-info img {
+  width: 60px;
+}
+
+.more-tab {
+    margin: 1rem;
+    width: 60%;
+}
+
+.more-tab p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.more-tab img {
+  width: 400px;
+}
+
+.more-tab.start {
+  height: 1500px;
+  max-height: fit-content;
+}
+
+.more-tab h2 {
+    font-size: 1.4rem;
+}
+
+.more-tab h1 {
+    font-size: 1.5rem;
+}
+
+.skill span {
+  font-size: 1.2rem;
+  width: 120px;
+  padding: 1rem;
+  border: 2px solid #403d35;
+}
+
+.jobs h2 {
+  font-size: 1.2rem;
+  padding: 1.3rem;
+  border: 2px solid #403d35;
+}
+
+.cv {
+  font-size: 1.4rem;
+  border: 2px solid #403d35;
+  width: 40%;
+  padding: 1rem;
+}
+
+.proj {
+  width: 100%;
+}
+
+.school {
+  width: 45%;
+  border: 2px solid #E6D5B8;
+  padding: 1.1rem;
+  margin: 14px;
+}
+
+.school h3 {
+  font-size: 1.8rem;
+}
+
+.school h5 {
+  font-size: 1.3rem;
+}
+
+.field {
+  width: 45%;
+}
+
+.field label {
+  font-size: 2rem;
+}
+
+.area {
+  border: 2px solid #403d35;
+  height: 60px;
+  font-size: 1.5rem;
+}
+
+textarea{
+  height: 100px !important;
+}

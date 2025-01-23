@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Muhamad Dirly" />
+    <meta name="description" content="Portfolio of Muhamad Dirly, a passionate Software Engineering student specializing in Frontend Development and Game Development."/>
+    <meta name="keywords" content="Muhamad Dirly, Frontend Developer, Game Developer, Software Engineering, Portfolio"/>
+
+
+    <title>Portofolio | Muhamad Dirly</title>
+    <link rel="icon" href="./assets/images/photo dirly.jpeg">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 728px)"
+      href="assets/css/desktop.css"
+    />
+    <script
+      src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"
+      defer
+    ></script>
+    <script src="/assets/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Improved navigation with ARIA labels -->
+    <div id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+      <a class="nlink" href="#perkenalan" aria-label="Go to Profile section">Profile</a>
+      <a class="nlink" href="#project" aria-label="Go to Projects section">Project</a>
+      <a class="nlink" href="#educations" aria-label="Go to Education section">Education</a>
+      <a class="nlink" href="#contact" aria-label="Go to Contact section">Contact</a>
+
+      <button id="hide-nav" class="show-hide" aria-label="Hide navigation menu">
+        <img src="assets/images/hambl.svg" alt="Hide menu icon" />
+      </button>
+    </div>
+    <nav role="navigation" aria-label="Brand navigation">
+      <a href="#welcome" aria-label="Go to welcome section"><h1>Dirly.</h1></a>
+      <button id="show-nav" class="show-hide" aria-label="Show navigation menu">
+        <img src="assets/images/ham.svg" alt="Show menu icon" />
+      </button>
+    </nav>
+
+    <main>
+      <section id="welcome" class="welcome" aria-label="Welcome section">
+        <div data-aos="zoom-in">
+          <h2 class="reli">Reliable</h2>
+          <h2 class="front">Frontend</h2>
+          <h2 class="dev">Developer</h2>
+        </div>
+      </section>
+
+      <section
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-anchor-placement="center-bottom"
+        id="perkenalan"
+        class="perkenalan"
+        aria-label="Profile section"
+      >
+        <p>
+          Saya seorang siswa Rekayasa Perangkat Lunak yang bersemangat di SMK Negeri 4 Tasikmalaya dan game development.
+        </p>
+        <div class="more-tab" id="more-tab">
+          <img src="assets/images/photo dirly.jpeg" alt="Aditya Kurnia Saputra - Portrait photo" />
+          <h1>Muhamad Dirly.</h1>
+          <p class="moreabout">
+            Meskipun baru mengenal dunia ini, saya berdedikasi untuk mempelajari web
+            teknologi dan mesin permainan. Ini mendorong saya untuk mempelajari pemrograman baru
+            keterampilan dan saya selalu berusaha keluar dari zona nyaman saya dan melakukannya
+            sesuatu yang berbeda seperti membuat UI yang indah menggunakan teknologi modern
+            kerangka kerja frontend atau merancang mekanisme permainan, dll. Saya suka
+            mempelajari dan mengeksplorasi alat dan teknologi pengembangan baru,
+            baik itu dalam pengembangan web atau game.
+          </p>
+          <div class="jobs" role="list">
+            <h2>Frontend Developer</h2>
+            <h2>Game Developer</h2>
+          </div>
+
+          <h2>Skills.</h2>
+
+          <div class="skill" role="list" aria-label="Technical skills">
+            <span role="listitem">HTML</span>
+            <span role="listitem">CSS</span>
+            <span role="listitem">JS</span>
+            <span role="listitem">Nuxt</span>
+            <span role="listitem">Vue JS</span>
+          </div>
+
+          <a class="cv" href="https://docs.google.com/document/d/1RIyIxpx9eM-2Q7yjSIe4jjyBI3PY5QFQKloi8kp6zI4/edit?usp=drivesdk" aria-label="Download CV">CV</a>
+        </div>
+
+        <div class="more-info" id="more-info" role="button" tabindex="0" aria-label="Click to show more information">
+          <h3
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-anchor-placement="center-bottom"
+          >
+            Click Me
+          </h3>
+          <img
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-anchor-placement="center-bottom"
+            src="assets/images/arrowdown.svg"
+            alt="Scroll down arrow"
+            class="arrow"
+          />
+        </div>
+      </section>
+
+      <section id="project" class="project" aria-label="Projects section">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          My Project.
+        </h2>
+            <a href="https://tefa-tabungan.vercel.app/login" target="_blank" aria-label="View PENUS CBT project">
+              <div class="image-container">
+                <img src="assets/images/tabungan.png" alt="muhamad-dirly Portrait photo" />
+                <div class="project-name"><button class="btn btn-primary" type="submit">Klik</button></div>
+              </div>
+            </a>
+            <div class="project-details">
+              <p>
+                Tabungan siswa adalah web aplikasi yang berfungsi untuk melakukan pencatatan data tabungan para siswa
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="educations" class="schools" aria-label="Education section">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          Education.
+        </h2>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="700"
+          class="school"
+          role="article"
+        >
+          <h3>SDN  Saripin</h3>
+          <h5>2012 - 2018</h5>
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="900"
+          class="school"
+          role="article"
+        >
+          <h3>MTS Assurur</h3>
+          <h5>2019 - 2021</h5>
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1100"
+          class="school"
+          role="article"
+        >
+          <h3>SMK Negeri 4 Tasikmalaya</h3>
+          <h5>2022 - NOW</h5>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-label="Contact section">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          Contact Me.
+        </h2>
+        <form
+          method="post"
+          name="Contact Form"
+          class="contactForm"
+          id="myForm"
+          netlify
+          role="form"
+          aria-label="Contact form"
+        >
+          <p
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="700"
+            class="field"
+          >
+            <label for="name">Name:</label>
+            <input 
+              class="area" 
+              type="text" 
+              name="name" 
+              id="name" 
+              required 
+              aria-required="true"
+              aria-label="Enter your name"
+            />
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="900"
+            class="field"
+          >
+            <label for="email">Email:</label>
+            <input 
+              class="area" 
+              type="email" 
+              name="email" 
+              id="email" 
+              required 
+              aria-required="true"
+              aria-label="Enter your email"
+            />
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1100"
+            class="field"
+          >
+            <label for="message">Message:</label>
+            <textarea
+              class="area"
+              name="comments"
+              id="message"
+              required
+              aria-required="true"
+              aria-label="Enter your message"
+            ></textarea>
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="700"
+            class="field"
+          >
+            <input
+              class="submit"
+              type="submit"
+              value="Submit"
+              aria-label="Submit form"
+              onclick="alert('This feature is temporarily suspended, please contact my email directly instead')"
+            />
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="icon" role="navigation" aria-label="Social media links">
+        <a href="https://github.com/g3nedirly" aria-label="Visit my GitHub profile">
+          <img src="assets/images/github.svg" alt="GitHub icon" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/muhamad-dirly-94544b347/" aria-label="Visit my LinkedIn profile">
+          <img src="assets/images/link.svg" alt="LinkedIn icon" />
+        </a>
+
+        <a href="https://www.instagram.com/dedirakdedirak?igsh=MWloZGU1aW54ZTU5ZA" aria-label="Visit my Instagram profile">
+          <img src="assets/images/ig.svg" alt="Instagram icon" />
+        </a>
+      </div>
+      <div class="more">
+        <h3>Mari kita membuat Proyek bersama.</h3>
+        <a href="mailto:adityakurniasaputra903@gmail.com" aria-label="Send me an email">Contact Me</a>
+        <h4>@muhamaddirly 2025</h4>
+      </div>
+    </footer>
+
+    <!-- Scripts remain unchanged -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/email.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "5CKta1XUwqsE4DMLa",
+        });
+      })();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#myForm").submit(function (event) {
+          event.preventDefault();
+          var name = $("#name").val();
+          var email = $("#email").val();
+          if (name === "" || email === "") {
+            alert("Tolong isi form");
+          } else {
+            sendMail();
+            const Toast = Swal.mixin({
+              toast: true,
+              position: "top-end",
+              showConfirmButton: false,
+              timer: 2000,
+              timerProgressBar: true,
+              didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+              },
+            });
+
+            Toast.fire({
+              icon: "success",
+              title: "Komentar terkirim!",
+            });
+
+            $("form#myForm").find("input").val("");
+            $("#myForm").find("input")[0].focus();
+            $("#message").val("");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
